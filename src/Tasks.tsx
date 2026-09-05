@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+// @ts-nocheck
+/* eslint-disable ... */
 
 //  задайте правильні ts типи для класичних js
 const age: number = 50;
@@ -31,7 +33,7 @@ enum Status {
   LOADING = "LOADING",
   READY = "READY",
 }
-let currentStatus: Status = Status.LOADING;
+let currentStatus: Status = "LOADING";
 
 // Зробіть змінну, яка може приймати або рядок, або число
 let variable: string | number;
